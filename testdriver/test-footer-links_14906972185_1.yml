@@ -1,0 +1,31 @@
+version: 4.2.29
+session: 681cacae32fef6c6f161c250
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+        method: keyboard
+        amount: 300
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+        method: keyboard
+        amount: 300
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+        method: keyboard
+        amount: 300
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+        method: keyboard
+        amount: 300
