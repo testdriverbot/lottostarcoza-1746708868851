@@ -1,0 +1,13 @@
+version: 4.2.29
+session: 681cacb5fb69e81eba10c09b
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Locate the search bar.
+    commands:
+      - command: hover-text
+        text: Type here to search
+        description: search bar at the top of the browser window
+        action: click
