@@ -1,0 +1,11 @@
+version: 4.2.29
+session: 681cacdefb69e81eba10c0b4
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Click on the promotional banner.
+    commands:
+      - command: hover-text
+        text: MOONSHINE WIN UP TO R10 MILLION BET NOW
+        description: promotional banner with moonshine text
+        action: click
